@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SweetTypical</string>
+    <string name="name_store">Tienda de dulces1</string>
+    <string name="description_store">Descripcion de la tienda...</string>
+    <string name="name_store1">Tienda de dulces1</string>
+    <string name="name_store2">Tienda de dulces2</string>
+    <string name="name_store3">Tienda de dulces3</string>
+    <string name="name_store4">Tienda de dulces4</string>
+</resources>

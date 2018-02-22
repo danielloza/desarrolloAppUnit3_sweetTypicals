@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    android:paddingTop="@dimen/padding"
+    android:paddingBottom="@dimen/padding"
+    android:paddingLeft="@dimen/padding"
+    android:paddingRight="@dimen/padding"
+    android:orientation="vertical"
+    android:background="@drawable/imagen9"
+    android:scrollbars="vertical"
+    tools:context="mx.edu.utng.dloza.sweettypical.ShopActivity">
+
+
+    <ImageButton
+        android:layout_width="@dimen/column_size"
+        android:layout_height="@dimen/column_size"
+        android:padding="@dimen/paddin"
+        android:layout_margin="@dimen/margin"
+        android:layout_gravity="center"
+        android:src="@drawable/artistry"
+        android:id="@+id/imagen1"
+        android:onClick="map"/>
+    <TextView
+        android:id="@+id/lbl_name"
+        android:text="@string/name_store"
+        android:textSize="@dimen/size_title"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"/>
+    <TextView
+        android:id="@+id/lbl_description"
+        android:text="@string/description_store"
+        android:textSize="@dimen/size"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"/>
+
+
+    <ImageButton
+        android:id="@+id/imagen2"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:onClick="map"
+        android:padding="@dimen/paddin"
+        android:src="@drawable/loca" />
+</LinearLayout>
